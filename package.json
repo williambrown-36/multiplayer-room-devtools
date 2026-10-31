@@ -1,0 +1,12 @@
+{
+  "name": "multiplayer-room-devtools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/room-service.ts",
+    "test": "node --experimental-strip-types --test src/room-service.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
